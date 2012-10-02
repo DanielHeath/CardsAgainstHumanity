@@ -5,7 +5,5 @@
     %meta{ :charset => 'utf-8' }
     %link{ :href => 'style.css', :rel => 'stylesheet', :media => 'all' }
   %body
-    - File.read('bcards.txt').lines.each do |line| 
-      .black.card= line
     - File.read('wcards.txt').lines.each do |line| 
       .white.card= line

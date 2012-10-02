@@ -1,3 +1,5 @@
 #!/usr/bin/env bash
 
-haml src/index.html.haml > html/index.html
+haml src/black.html.haml > html/black.html
+haml src/white.html.haml > html/white.html
+

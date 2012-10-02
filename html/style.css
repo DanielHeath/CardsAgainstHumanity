@@ -1,0 +1,10 @@
+.card {
+  float: left;
+  height: 75px;
+  width: 150px;
+  padding: 20px;
+  margin-top: 75px;
+
+  page-break-inside:avoid;
+  text-align: center;
+}

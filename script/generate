@@ -1,0 +1,3 @@
+#!/usr/bin/env bash
+
+haml src/index.html.haml > html/index.html

@@ -8,3 +8,7 @@
   font-weight: bold;
   page-break-inside:avoid;
 }
+.black {
+  background-color: black;
+  color: white;
+}

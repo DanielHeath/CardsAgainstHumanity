@@ -3,6 +3,6 @@
 haml src/black.html.haml > html/black.html
 haml src/white.html.haml > html/white.html
 
-ruby pdf/with_prawn.rb wcards.txt white.pdf
-ruby pdf/with_prawn.rb bcards.txt black.pdf
+ruby pdf/with_prawn.rb wcards.txt white.pdf Answer
+ruby pdf/with_prawn.rb bcards.txt black.pdf Question
 

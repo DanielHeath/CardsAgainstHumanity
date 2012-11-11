@@ -6,7 +6,8 @@ width = 100
 height = 100
 cols = 3
 rows = 5
-gutter = 10
+gutter = 10 # My initial cards used this and it was terrible.
+gutter = 0
 
 inputs = File.read(ARGV.first).lines.to_a.reject(&:blank?).map {|e| e.gsub(/_/, '______')}
 
